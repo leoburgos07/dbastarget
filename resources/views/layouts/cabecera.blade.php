@@ -1,5 +1,5 @@
-<header class="fijo text-center">
-    <div id="botones">
+
+    <div id="botones" class="text-center">
         <a href="{{route('inicio')}}">
             <button name="boton1" class="boton">
                 Inicio
@@ -16,6 +16,4 @@
         <a href="{{route('voteAsi')}}">
             <button name="boton4" class="boton">Vote asi</button>
         </a>
-
     </div>
-</header>

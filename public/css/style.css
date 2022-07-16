@@ -4,12 +4,13 @@ body {
 
 #botones {
     height: 75px;
+    
 }
 
 .boton {
     margin-left: 19px;
     margin-right: auto;
-    width: 160px;
+    width: 140px;
     height: 45px;
     margin-top: 10px;
     font-size: 24px;
