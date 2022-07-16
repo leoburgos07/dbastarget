@@ -1,3 +1,21 @@
-body{
-    background: green;
+body {
+    background: black;
+}
+
+#botones {
+    height: 75px;
+}
+
+.boton {
+    margin-left: 19px;
+    margin-right: auto;
+    width: 160px;
+    height: 45px;
+    margin-top: 10px;
+    font-size: 24px;
+    text-shadow: 0 0 1px;
+    cursor: pointer;
+    background-color: #465064;
+    color: #ffffff;
+    border-radius: 7px;
 }

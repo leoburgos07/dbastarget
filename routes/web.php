@@ -16,6 +16,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('inicio');
+
+Route::get('/agenda', function (){
+    return view('agenda');
+})->name('agenda');
+
+Route::get('/vote-asi', function (){
+    return view('vote_asi');
+})->name('voteAsi');
 
 Route::get('/friends', [FriendController::class, 'showFriends']);

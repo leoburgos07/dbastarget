@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\DB;
 class FriendController extends Controller
 {
     public function showFriends(){
-        $resultado= DB::select('SELECT * FROM dpto');
+        $resultado = DB::select('SELECT * FROM dpto');
         return $resultado;
     }
 }
