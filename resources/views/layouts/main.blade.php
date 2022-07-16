@@ -9,7 +9,7 @@
     <title>DBase Target</title>
 </head>
 <body>
-    <div class="container">
+    <div class="">
     @include('layouts/cabecera')
     @yield('content')
     </div>
