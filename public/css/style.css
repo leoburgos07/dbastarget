@@ -2,18 +2,18 @@ body {
     background: black;
 }
 
-#botones {
+/* #botones {
 justify-content: space-evenly;
     width: 750px;
     height: 75px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 .boton {
     width: 160px;
     height: 45px;
-    margin-top: 10px;
+    margin: 10px;
     font-size: 24px;
     text-shadow: 0 0 1px;
     cursor: pointer;
@@ -21,3 +21,23 @@ justify-content: space-evenly;
     color: #ffffff;
     border-radius: 7px;
 }
+@media (max-width: 992px) {
+    .boton {
+        width: 100px;
+        margin: 8px 5px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 475px ) {
+    .boton {
+        width: 75px;
+        font-size: 14px;
+        margin: 8px 2px;
+        height: 35px;
+        
+        
+    }
+}
+
+
+0

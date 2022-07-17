@@ -1,8 +1,8 @@
 @extends('layouts.main')
 
 @section('content')
-<div class="text-center">
-    <img src="{{ asset('img/1.jpg') }}" alt="">
+<div id="mainImg" class="text-center" >
+     <img id="mainImg" src="{{ asset('img/1.jpg') }}" class="w-100" alt="">
 
 </div>
 @endsection

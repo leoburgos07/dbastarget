@@ -1,5 +1,5 @@
 
-    <div id="botones" class="d-flex">
+    <div id="botones" class="text-center" >
         <a href="{{route('inicio')}}">
             <button name="boton1" class="boton">
                 Inicio
