@@ -1,5 +1,9 @@
 @extends('layouts.main')
 
+@section('title')
+     DBASE TARGET
+@endsection
+
 @section('content')
 <div id="mainImg" class="text-center">
      <img id="mainImg" src="{{ asset('img/1.jpg') }}" class="w-100" alt="">

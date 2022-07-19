@@ -13,7 +13,15 @@
         <button class="boton">Agenda</button>
     </a>
     <input type="hidden" id="serverEnlace" value="{{Request::getSchemeAndHttpHost()}}">
-    <a href="#" onclick="compartirEnlace()">
-        <button class="boton">Compartír</button>
-    </a>
+    @if (Route::currentRouteName() == "inicio")
+        <a href="#" onclick="compartirEnlace()">
+            <button class="boton">Compartír</button>
+        </a>
+    @else
+    <a href="{{ URL::previous() }}">
+            <button class="boton btn-danger bg-danger">Volver</button>
+        </a>
+    @endif
+    
+    
 </div>
