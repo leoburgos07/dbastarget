@@ -10,6 +10,10 @@ justify-content: space-evenly;
     margin-right: auto;
 } */
 
+.iconoSocial{
+    padding: 5px 20px;   
+}
+
 .boton {
     width: 160px;
     height: 45px;
@@ -26,6 +30,7 @@ justify-content: space-evenly;
         width: 100px;
         margin: 8px 5px;
         font-size: 18px;
+        height: 40px;
     }
 }
 @media (max-width: 475px ) {
@@ -34,10 +39,8 @@ justify-content: space-evenly;
         font-size: 14px;
         margin: 8px 2px;
         height: 35px;
-        
-        
+    }
+    .iconoSocial{
+        padding: 5px;
     }
 }
-
-
-0
